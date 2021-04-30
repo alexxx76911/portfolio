@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Homework</string>
+    <string name="fragment_2">fragment 2</string>
+    <string name="fragment_3">fragment 3</string>
+    <string name="page_1">page 1</string>
+    <string name="page_2">page 2</string>
+    <string name="page_3">page 3</string>
+</resources>

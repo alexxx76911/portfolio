@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Homework</string>
+    <string name="searchEditText">поиск</string>
+    <string name="movieRadioBtn">фильм</string>
+    <string name="seriesRadioBtn">сериал</string>
+    <string name="episodeRadioBtn">эпизод</string>
+    <string name="moviesBdBtn">фильмы из бд</string>
+</resources>

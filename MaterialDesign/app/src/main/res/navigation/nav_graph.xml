@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_graph"
+    app:startDestination="@id/fragment1">
+
+    <fragment
+        android:id="@+id/fragment1"
+        android:name="com.example.homework.Fragment1"
+        android:label="Fragment1" >
+        <action
+            android:id="@+id/action_fragment1_to_fragmentCardDetails"
+            app:destination="@id/fragmentCardDetails" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment2"
+        android:name="com.example.homework.Fragment2"
+        android:label="Fragment2" />
+    <fragment
+        android:id="@+id/fragment3"
+        android:name="com.example.homework.Fragment3"
+        android:label="Fragment3" />
+    <fragment
+        android:id="@+id/fragmentCardDetails"
+        android:name="com.example.homework.FragmentCardDetails"
+        android:label="FragmentCardDetails" >
+        <argument
+            android:name="id"
+            app:argType="long" />
+    </fragment>
+</navigation>

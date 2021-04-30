@@ -1,0 +1,33 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Homework" parent="Theme.MaterialComponents.Light">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/orange_500</item>
+        <item name="colorPrimaryVariant">@color/orange_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/yellow_200</item>
+        <item name="colorSecondaryVariant">@color/yellow_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        
+        <item name="bottomNavigationStyle"> @style/BottomView</item>
+        <item name="textAppearanceHeadline1"> @style/TitleText</item>
+        <item name="shapeAppearanceMediumComponent"> @style/CardShape</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="BottomView" parent= "Widget.MaterialComponents.BottomNavigationView.Colored">
+        <item name="labelVisibilityMode"> selected</item>
+    </style>
+
+    <style name="TitleText" parent="TextAppearance.MaterialComponents.Headline1">
+        <item name="android:textSize"> 20sp </item>
+    </style>
+
+    <style name="CardShape" parent="ShapeAppearance.MaterialComponents.MediumComponent">
+        <item name="cornerFamily"> rounded</item>
+        <item name="cornerSize">20dp</item>
+    </style>
+</resources>

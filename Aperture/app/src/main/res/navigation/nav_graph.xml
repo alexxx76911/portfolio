@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.example.aperture.ui.MainFragment"
+        android:label="MainFragment" >
+        <action
+            android:id="@+id/action_mainFragment_to_startFragment"
+            app:destination="@id/startFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_photoDetailsFragment"
+            app:destination="@id/photoDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="com.example.aperture.ui.StartFragment"
+        android:label="StartFragment" >
+        <action
+            android:id="@+id/action_startFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/photoDetailsFragment"
+        android:name="com.example.aperture.ui.PhotoDetailsFragment"
+        android:label="PhotoDetailsFragment" >
+        <argument
+            android:name="photoId"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/collectionsFragment"
+        android:name="com.example.aperture.ui.CollectionsFragment"
+        android:label="CollectionsFragment" >
+        <action
+            android:id="@+id/action_collectionsFragment_to_collectionPhotosFragment"
+            app:destination="@id/collectionPhotosFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/collectionPhotosFragment"
+        android:name="com.example.aperture.ui.CollectionPhotosFragment"
+        android:label="CollectionPhotosFragment" >
+        <argument
+            android:name="collectionId"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_collectionPhotosFragment_to_photoDetailsFragment"
+            app:destination="@id/photoDetailsFragment" />
+        <argument
+            android:name="collectionPosition"
+            app:argType="integer" />
+    </fragment>
+    <fragment
+        android:id="@+id/myProfileFragment"
+        android:name="com.example.aperture.ui.MyProfileFragment"
+        android:label="MyProfileFragment" >
+        <action
+            android:id="@+id/action_myProfileFragment_to_photoDetailsFragment"
+            app:destination="@id/photoDetailsFragment" />
+        <action
+            android:id="@+id/action_myProfileFragment_to_collectionPhotosFragment"
+            app:destination="@id/collectionPhotosFragment" />
+        <action
+            android:id="@+id/action_myProfileFragment_to_startFragment"
+            app:destination="@id/startFragment" />
+    </fragment>
+</navigation>

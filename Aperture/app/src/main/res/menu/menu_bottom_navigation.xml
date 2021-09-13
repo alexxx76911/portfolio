@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/mainFragment"
+        android:enabled="true"
+
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="home"
+        />
+
+    <item android:id="@+id/collectionsFragment"
+        android:enabled="true"
+
+        android:icon="@drawable/ic_baseline_star_border_24"
+        android:title="collections" />
+
+    <item android:id="@+id/myProfileFragment"
+        android:enabled="true"
+
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="profile" />
+
+
+</menu>

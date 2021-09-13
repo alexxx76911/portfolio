@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aperture</string>
+    <string name="start_info1">Make photos, publish, gather your audience, get feedback!</string>
+    <string name="start_info2">Share with friends, make collections</string>
+    <string name="start_info3">Download favorite photos and track statistics</string>
+    <string name="auth_failed">authentication failed</string>
+    <string name="loginBtn">login with unsplash</string>
+    <string name="toolBarTitleMain">Tape</string>
+    <string name="toolBarTitlePhotoDetails">Photo</string>
+    <string name="toolBarTitleCollections">Collections</string>
+    <string name="toolBarTitleProfile">Profile</string>
+    <string name="snackBarNetworkError">Network error</string>
+    <string name="snackBarLoadBd">Network error, data is loaded from bd</string>
+    <string name="emptyList">list is empty</string>
+    <string name="moreBtn">More</string>
+    <string name="snackBarDownloadError">Network error, downloading will resume later</string>
+    <string name="snackBarDownloadSuccess">Downloading is complete</string>
+    <string name="snackBarOpenAction">Open</string>
+    <string name="logoutDialog">Are you sure, that you want to logout. All local data will be deleted</string>
+    <string name="positiveBtn">Yes</string>
+    <string name="negativeBtn">No</string>
+    <string name="updatePage">No network, update page</string>
+    <string name="myPhotosTextView">photos</string>
+    <string name="likedPhotosTextView">liked</string>
+    <string name="myCollectionsTextView">collections</string>
+    <string name="photosText">photos</string>
+    <string name="loadPhotoFail">loading fail</string>
+    <string name="downloadFail">Downloading is failed</string>
+</resources>

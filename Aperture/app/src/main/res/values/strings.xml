@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name" translatable="false">Aperture</string>
+    <string name="start_info1">Создавайте снимки, публикуйте, собирайте аудиторию, получайте фидбек!</string>
+    <string name="start_info2">Делитесь с друзьями, собирайте коллекции</string>
+    <string name="start_info3">Загружайте любимые снимки и отслеживайте статистику</string>
+    <string name="auth_failed">авторизация неуспешна</string>
+    <string name="loginBtn">войти через unsplash</string>
+    <string name="toolBarTitleMain">Лента</string>
+    <string name="toolBarTitlePhotoDetails">Фото</string>
+    <string name="toolBarTitleCollections">Коллекции</string>
+    <string name="toolBarTitleProfile">Профиль</string>
+    <string name="snackBarNetworkError">Ошибка сети</string>
+    <string name="snackBarLoadBd">Ошибка сети, данные загружены из бд</string>
+    <string name="emptyList">Список пуст</string>
+    <string name="moreBtn">Больше</string>
+    <string name="snackBarDownloadError">Ошибка сети, загрузка продолжится позже</string>
+    <string name="downloadFail">Загрузка неуспешна</string>
+    <string name="snackBarDownloadSuccess">Загрузка завершена</string>
+    <string name="snackBarOpenAction">Открыть</string>
+    <string name="logoutDialog">Вы уверены что хотите выйти? Все данные будут удалены</string>
+    <string name="positiveBtn">Да</string>
+    <string name="negativeBtn">Нет</string>
+    <string name="updatePage">Нет сети, обновите страницу</string>
+    <string name="myPhotosTextView">фотографии</string>
+    <string name="likedPhotosTextView">понравилось</string>
+    <string name="myCollectionsTextView">коллекции</string>
+    <string name="photosText">фотографий</string>
+    <string name="loadPhotoFail">ошибка загрузки</string>
+
+
+</resources>

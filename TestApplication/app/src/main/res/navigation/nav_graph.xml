@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/usersFragment">
+
+    <fragment
+        android:id="@+id/usersFragment"
+        android:name="com.example.testapplication.UsersFragment"
+        android:label="UsersFragment" >
+        <action
+            android:id="@+id/action_usersFragment_to_userDetailsFragment"
+            app:destination="@id/userDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/userDetailsFragment"
+        android:name="com.example.testapplication.UserDetailsFragment"
+        android:label="UserDetailsFragment" >
+        <argument
+            android:name="userFirstName"
+            app:argType="string" />
+        <argument
+            android:name="userLastName"
+            app:argType="string" />
+        <argument
+            android:name="userEmail"
+            app:argType="string" />
+        <argument
+            android:name="userAvatar"
+            app:argType="string" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.testapplication.AboutFragment"
+        android:label="AboutFragment" />
+</navigation>
